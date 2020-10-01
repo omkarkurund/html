@@ -171,7 +171,7 @@ function movePanel(event) {
   if (event) {
     event.stopPropagation();
   }
-}
+
 
 function restoreOrClosePanelOnNav(event) {
   // Invoking this function twice is fine since on the second invocation,
